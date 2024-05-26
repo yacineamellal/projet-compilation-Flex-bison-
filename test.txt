@@ -1,0 +1,55 @@
+VAR_GLOBAL {
+     
+}
+
+DECLARATION {
+ FLOAT A;
+        FLOAT B;
+        FLOAT C;
+        INTEGER D;
+        CONST E = (-14);
+        CONST F = (-16000);
+        FLOAT array[54];
+        INTEGER i,t1,t2,t3,j;
+        FLOAT G,H,X;
+
+}
+INSTRUCTION {
+    array[D]=B;
+        t1=t2 ; 
+        t3=4*t1;
+        array[10] = A; 
+        G = 1 + 12.66;
+        H = 12 - 13.29;
+        X=(2/2.4)*3;
+        array[10] = array[A] + array[2];
+        
+        A = ((15/3) + B) * ((B - 10) / B) + B / 2;
+
+        IF(A >= 10){
+            FOR(A:0:1:D){
+                A = D * A;
+            }
+        }
+        ELSE{
+            WHILE((A<=15) && (A>=0)){
+                IF(A == 4){
+                   
+                    IF(B - D == 15){
+                        B = 2.10;
+                    }
+                    ELSE{
+                        A = 1.30;
+                    }
+                }
+            }
+            A = A + 1;
+        }
+
+        FOR (D : 0: 2 :n) { 
+               array[D]=3.23; 
+                }
+        WRITE ("Donner la valeur de A :");
+         READ (A);
+         WRITE ("La Valeur de A est ", A, ".");
+    }
